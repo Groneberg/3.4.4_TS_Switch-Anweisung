@@ -1,12 +1,12 @@
- void main() {
-  String sex = "male"; 
+void main() {
+  String sex = "male";
   int age = 22;
 
   switch (sex) {
     case "male":
       switch (age) {
         case >= 0 && <= 20:
-          print("Im Schnitt 181,4m"); 
+          print("Im Schnitt 181,4m");
           break;
         case >= 21 && <= 25:
           print("Im Schnitt 181,3m");
@@ -29,7 +29,7 @@
         case >= 21 && <= 25:
           print("Im Schnitt 167,3m");
           break;
-        case >= 26 && <= 30: 
+        case >= 26 && <= 30:
           print("Im Schnitt 167,2m");
           break;
         case >= 31 && <= 35:
